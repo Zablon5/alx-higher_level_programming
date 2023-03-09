@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-if __name__ == __"main"__:
+if __name__ == "__main__":
     from sys import argv
     narg = len(argv) - 1
     if narg < 1:
@@ -9,5 +9,5 @@ if __name__ == __"main"__:
             print("{} argument:".format(narg))
         else:
             print("{} arguments:".format(narg))
-            for i in range(1, narg + 1):
-                print("{}: {}".format(i, argv[i]))
+        for i in range(1, narg + 1):
+            print("{}: {}".format(i, argv[i]))
