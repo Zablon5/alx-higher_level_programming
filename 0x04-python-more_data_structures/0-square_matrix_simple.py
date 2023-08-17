@@ -1,5 +1,9 @@
 #!/usr/bin/python3
 def square_matrix_simple(matrix=[]):
+    """
+    a function that returns
+    the squre of a givrn matrix
+    """
     n = len(matrix)
     m = len(matrix[0])
     new_matrix = []
