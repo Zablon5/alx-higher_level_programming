@@ -5,3 +5,4 @@ def square_matrix_simple(matrix=[]):
     the squre of a givrn matrix
     """
     return (list(map(lambda row:(list(map(lambda col:col*col,row))),matrix)))
+    
